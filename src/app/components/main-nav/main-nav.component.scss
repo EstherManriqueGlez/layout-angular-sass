@@ -1,0 +1,38 @@
+nav.main-menu {
+  background-color: #FAD7AC;
+  padding: 2em 0;
+  margin: 1em auto;
+  border: 2px solid #CF9247;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0 1em;
+
+      a {
+        padding: 0.5em;
+      }
+    }
+  }
+
+  ul li:nth-child(1) a {
+    border: 1px solid #879BBA;
+  }
+  
+  ul li:nth-child(2) a {
+    border: 1px solid #BD5F57;
+  }
+  
+  ul li:nth-child(3) a {
+    border: 1px solid #E4C379;
+  }
+  
+  ul li:nth-child(4) a {
+    border: 1px solid #B08DA7;
+  }
+}

@@ -1,0 +1,15 @@
+.main-content {
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    background-color: #eeeeee;
+    padding: 1em;
+    border: 2px solid black;
+  }
+  .paragraph {
+    padding: 1em;
+    border: 2px solid black;
+    margin-top: 1em;
+  }
+}

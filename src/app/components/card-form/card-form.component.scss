@@ -1,0 +1,20 @@
+.card-form {
+  background-color: #CDEB8B;
+  min-height: 15em;
+  padding: 1em;
+  border: 3px solid black;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    input,
+    select {
+      width: 80%;
+      margin-bottom: 1em;
+    }
+  }
+
+
+}

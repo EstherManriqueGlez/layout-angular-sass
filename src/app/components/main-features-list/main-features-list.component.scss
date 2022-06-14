@@ -2,12 +2,13 @@
   display: grid;
   grid-template-rows: auto 10em;
   gap: 1em;
+  height: 100%;
 
   .features {
     background-color: #B1DDF0;
     padding: 1em;
     border: 2px solid #2A83A9;
-    height: 25em;
+
 
     ul li {
       margin-bottom: 1em;

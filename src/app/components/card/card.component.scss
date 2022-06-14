@@ -1,0 +1,23 @@
+.card {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 1em;
+  background-color: #CDEB8B;
+  min-height: 15em;
+  padding: 1em;
+  border: 3px solid black;
+
+  .avatar img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+  }
+
+  .description p {
+    line-height: 1;
+    border: 1px solid black;
+    padding: .5em;
+    margin: 0;
+  }
+  
+}

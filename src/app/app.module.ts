@@ -9,6 +9,8 @@ import { MainComponent } from './components/main/main.component';
 import { MainSectionListComponent } from './components/main-section-list/main-section-list.component';
 import { MainContentComponent } from './components/main-content/main-content.component';
 import { MainFeaturesListComponent } from './components/main-features-list/main-features-list.component';
+import { CardComponent } from './components/card/card.component';
+import { CardFormComponent } from './components/card-form/card-form.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MainFeaturesListComponent } from './components/main-features-list/main-
     MainComponent,
     MainSectionListComponent,
     MainContentComponent,
-    MainFeaturesListComponent
+    MainFeaturesListComponent,
+    CardComponent,
+    CardFormComponent
   ],
   imports: [
     BrowserModule,
